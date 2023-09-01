@@ -1,0 +1,234 @@
+
+body {
+  background-color: #0fdcc1;
+  color: #edeff3;
+  padding: 10px;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+head {
+  background-color: #2856ef;
+  color: #b9aaf5;
+  padding: 10px;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+}
+
+nav a:hover, nav a:focus {
+  color: #1e071b;
+  background-color: #ff7b25;
+  font-weight: bold;
+  padding-right: 160px; 
+}
+
+p{
+  color:#fcf7f4;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-stretch: semi-expanded;
+  font-kerning: auto;
+}
+a{
+  color:#fcf7f4;
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 20%;
+  margin-right: 0.5%;
+  text-align: center;
+  line-height: 1;
+}
+a:link{
+
+  font-family: 'Courier New', Courier, monospace, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  justify-content: stretch;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 30px; 
+}
+
+.App-nav{
+  margin-left: auto;
+}
+.nav-list{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-size: 30px; 
+}
+.main-header{
+  height: .7rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+.link{
+  text-decoration: none;
+  font-size: .7rem;
+  white-space: nowrap;
+}
+.nav-item{
+  margin-left: 1rem;
+  padding: 1px 6px;
+
+}
+
+main {
+  margin: 0;
+  padding: 1px;
+  background-color:#ab92e9;
+}
+
+.wrapper{
+  bottom: 90%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  height: fit-content;
+  border-collapse: collapse;
+  align-self: center;
+}
+
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+caption {
+  font-weight: bold;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f8f3f1;
+}
+tr,th
+{
+    background-color: #d64161;
+    padding: 5px;
+}
+tr,td
+{
+    background-color: #92a8d1;
+    padding: 5px;
+}
+
+fieldset
+{
+  background-color:#407088;
+  padding:8px;	
+  font-family: "Gill Sans", sans-serif;
+}
+
+legend
+{
+  font-family: "Gill Sans", sans-serif;
+}
+label
+{	
+  font-family: "Gill Sans", sans-serif;
+}
+
+input
+{
+  background-color:#c2d4dd;
+  padding:4px;	
+  font-family: "Gill Sans", sans-serif;
+}
+
+button
+{
+  background-color:#77a8a8;
+  padding:4px;	
+  font-family: "Gill Sans", sans-serif;
+  border-radius: 25%;
+}
+article{
+  overflow: auto;
+}
+h2{
+  margin: 0;
+  padding: 10;
+}
+
+.App-logo {
+  height: 60vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+  .products{
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  background-color: #680747;
+  min-height: 100px;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: #ffcbcb;
+  top: 15%;
+}
+
+h1{
+  margin: 0;
+  padding: 10;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+
+footer a{
+  margin: 0;
+  padding: 0;
+  color:#492fc9;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+footer p{
+  margin: 0;
+  padding: 0;
+  color:#ece6f4;
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: "Gill Sans", sans-serif;
+}
