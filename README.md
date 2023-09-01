@@ -29,5 +29,5 @@ GIF created with Gifcap
 
 ## MongoDB database server side
 
-<img src="./assets/database-updates.gif" title='databse' width='' alt='database' />
+<img src="./assets/database-updates.jpg" title='databse' width='' alt='database' />
 
